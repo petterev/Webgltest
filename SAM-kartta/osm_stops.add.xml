@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2022-06-06 13:52:57 by Eclipse SUMO netedit Version 1.11.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Users\roope\sam-ui\SAM-kartta\osm.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Users\roope\sam-ui\SAM-kartta\osm.net.xml"/>
+        <output.street-names value="true"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Users\roope\sam-ui\SAM-kartta\osm_stops.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-107756082" name="Leikonsaarentie" lane="-107756082_0" startPos="14.01" endPos="24.01"/>
+    <busStop id="-107899638" name="Hiekkalaiturinraitti" lane="-107899638_0" startPos="24.44" endPos="34.44" friendlyPos="true"/>
+    <busStop id="-109795002#1" lane="-109795002#1_0" startPos="19.53" endPos="29.53"/>
+    <busStop id="-109800414" name="Punakiventie" lane="-109800414#0_0" startPos="63.04" endPos="77.23" friendlyPos="true"/>
+    <busStop id="-110183509" name="Päiväkoti Koralli" lane="-110183509_0" startPos="70.55" endPos="83.55"/>
+    <busStop id="-113747056#2" lane="-113747056#2_0" startPos="12.99" endPos="22.99" friendlyPos="true"/>
+    <busStop id="-251919863" name="Vuosaari (M), laituri 12" lane="-23278364#0_0" startPos="30.76" endPos="45.76" friendlyPos="true" lines="560"/>
+    <busStop id="-284131377" name="Porslahdentie" lane="-284131377_0" startPos="47.63" endPos="57.63"/>
+    <busStop id="-284131378#2" name="Niinilahti" lane="-284131378#2_0" startPos="52.14" endPos="62.14"/>
+    <busStop id="-284131393#6" name="Verkkotie" lane="-284131393#6_0" startPos="7.04" endPos="17.04"/>
+    <busStop id="-355680647" name="Lokitie" lane="-284131420_0" startPos="0.00" endPos="10.61" friendlyPos="true" lines="90N"/>
+    <busStop id="-368499153" name="Majakanvartijankatu" lane="-368499153_0" startPos="26.99" endPos="36.99"/>
+    <busStop id="-432653756" name="Satamakaari" lane="-42701808_0" startPos="0.00" endPos="10.23" friendlyPos="true" lines="90A 90"/>
+    <busStop id="-432835448" name="Koukkusaarenpolku" lane="-38360085#1_0" startPos="0.00" endPos="10.20" friendlyPos="true" lines="90N"/>
+    <busStop id="-43797483#8" lane="-43797483#8_0" startPos="1.81" endPos="17.81" friendlyPos="true"/>
+    <busStop id="-445085507" name="Aurinkolahden puistotie" lane="-107756096#1_0" startPos="28.71" endPos="43.71" friendlyPos="true" lines="96N 90"/>
+    <busStop id="-445090567" name="Kallvikinniemi" lane="-201252985_0" startPos="41.08" endPos="56.08" friendlyPos="true" lines="96N"/>
+    <busStop id="-445834185" name="Ivan Falinin kuja" lane="-55896960_0" startPos="5.70" endPos="20.70" friendlyPos="true" lines="90 96N"/>
+    <busStop id="-454172818" name="Kaivonkatsojanpuisto" lane="-130193136#2_0" startPos="15.38" endPos="30.38" friendlyPos="true" lines="90N"/>
+    <busStop id="-454172825" name="Harbonkatu" lane="-128672146#0_0" startPos="21.55" endPos="36.55" friendlyPos="true" lines="96N"/>
+    <busStop id="-454176407" name="Halkaisijantie" lane="-182886295#0_0" startPos="0.00" endPos="7.70" friendlyPos="true" lines="96N"/>
+    <busStop id="-454177607" name="Ramsinniementie" lane="-128139012#2_0" startPos="3.74" endPos="18.74" friendlyPos="true" lines="96N"/>
+    <busStop id="-454178533" name="Fokkatori" lane="-128139011#0_0" startPos="3.86" endPos="15.98" friendlyPos="true" lines="96N"/>
+    <busStop id="-471185941" name="Merikorttitie" lane="-284131368_0" startPos="77.56" endPos="92.56" friendlyPos="true" lines="560"/>
+    <busStop id="-4776073#8" name="Sofia" lane="-4776073#8_0" startPos="14.54" endPos="24.54"/>
+    <busStop id="-48773796#0" name="Niinisaarentie" lane="-48773796#0_0" startPos="37.96" endPos="47.96"/>
+    <busStop id="-48922631#0" name="Neitsytsaarentie" lane="-48922631#0_0" startPos="22.75" endPos="32.75"/>
+    <busStop id="-510188994#1" name="Rantapuisto" lane="-510188994#1_0" startPos="13.40" endPos="23.40"/>
+    <busStop id="-54901669" lane="-54901669_0" startPos="12.49" endPos="22.49" friendlyPos="true"/>
+    <busStop id="-6329147750" name="Fokkatori" lane="-128139011#0_0" startPos="4.25" endPos="15.98" friendlyPos="true" lines="560"/>
+    <busStop id="-6329147751" name="Ramsinniementie" lane="-128139012#2_0" startPos="3.65" endPos="18.65" friendlyPos="true" lines="560"/>
+    <busStop id="-6329147752" name="Harbonkatu" lane="-128672146#0_0" startPos="21.22" endPos="36.22" friendlyPos="true" lines="560"/>
+    <busStop id="-6329147753" name="Halkaisijantie" lane="-182886295#0_0" startPos="0.00" endPos="7.70" friendlyPos="true" lines="560"/>
+    <busStop id="-6329147754" name="Kallvikinniemi" lane="-201252985_0" startPos="41.10" endPos="56.10" friendlyPos="true" lines="560"/>
+    <busStop id="-6329147755" name="Vedenottamontie" lane="-284131372#1_0" startPos="18.36" endPos="33.36" friendlyPos="true" lines="560">
+        <access lane="-111708598#3_0" pos="19.07" length="16.93" friendlyPos="1"/>
+        <access lane="-238588774#1_0" pos="28.45" length="13.80" friendlyPos="1"/>
+        <access lane="-4866085_0" pos="1.00" length="37.99" friendlyPos="1"/>
+        <access lane="111708598#3_0" pos="34.79" length="15.43" friendlyPos="1"/>
+        <access lane="238588774#1_0" pos="34.34" length="15.30" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-6329147758" name="Lokitie" lane="-284131420_0" startPos="0.00" endPos="13.41" friendlyPos="true" lines="560"/>
+    <busStop id="-6329147759" name="Koukkusaarentie" lane="-276197907_0" startPos="8.63" endPos="23.63" friendlyPos="true" lines="560"/>
+    <busStop id="-6329149202" name="Koukkusaarentie" lane="-38360085#3_0" startPos="9.68" endPos="24.68" friendlyPos="true" lines="560"/>
+    <busStop id="-7395880286" name="Vedenottamontie" lane="-284131372#1_0" startPos="17.91" endPos="32.91" friendlyPos="true" lines="90N 96N">
+        <access lane="-111708598#3_0" pos="18.64" length="8.25" friendlyPos="1"/>
+        <access lane="-238588774#1_0" pos="28.01" length="22.47" friendlyPos="1"/>
+        <access lane="111708598#3_0" pos="35.21" length="6.75" friendlyPos="1"/>
+        <access lane="130192868#0_0" pos="0.00" length="34.16" friendlyPos="1"/>
+        <access lane="238588774#1_0" pos="34.78" length="23.97" friendlyPos="1"/>
+    </busStop>
+    <busStop id="-7395880287" name="Vuosaarentie" lane="-284131383#5_0" startPos="40.62" endPos="55.62" friendlyPos="true" lines="96 96N"/>
+    <busStop id="-7395880289" name="Lokkisaarentie" lane="-108965742_0" startPos="30.76" endPos="45.76" friendlyPos="true" lines="96 96N"/>
+    <busStop id="-7395880291" name="Isonvillasaarentie" lane="-284131389_0" startPos="13.67" endPos="28.67" friendlyPos="true" lines="96 96N"/>
+    <busStop id="-95889679" name="Purjetie" lane="-95889679_0" startPos="41.31" endPos="51.31"/>
+    <busStop id="-969276416" name="Gustav Pauligin katu" lane="-129635792_0" startPos="15.18" endPos="29.55" friendlyPos="true" lines="96N 90"/>
+    <busStop id="107612263#2" name="Leikosaarentie" lane="107612263#2_0" startPos="10.68" endPos="20.68"/>
+    <busStop id="109795002#1" name="Kallvikintie" lane="109795002#1_0" startPos="18.20" endPos="28.20"/>
+    <busStop id="1108376326" name="Vuosaarentie" lane="4291166#2_0" startPos="0.30" endPos="27.36" friendlyPos="true"/>
+    <busStop id="1109603802" name="Vuosaarentie" lane="108389457_0" startPos="18.73" endPos="33.73" friendlyPos="true" lines="96N 96"/>
+    <busStop id="113747056#1" lane="113747056#1_0" startPos="19.77" endPos="29.77" friendlyPos="true"/>
+    <busStop id="113747056#11" lane="113747056#11_0" startPos="49.92" endPos="69.92" friendlyPos="true"/>
+    <busStop id="1239301965" name="Hiekkajaalanpolku" lane="107899615#1_0" startPos="0.00" endPos="10.91" friendlyPos="true"/>
+    <busStop id="1370762514" name="Lokitie" lane="40164324#1_0" startPos="41.05" endPos="56.05" friendlyPos="true" lines="90N"/>
+    <busStop id="180301405" name="Rastila (M)" lane="4863797_0" startPos="34.15" endPos="41.65" friendlyPos="true" lines="560"/>
+    <busStop id="2275921565" name="Halkaisijantie" lane="201252986_0" startPos="40.80" endPos="55.80" friendlyPos="true" lines="96N"/>
+    <busStop id="232629642" lane="232629642_0" startPos="15.55" endPos="25.55"/>
+    <busStop id="251935700" name="Rastila (M)" lane="238588822_0" startPos="3.78" endPos="18.78" friendlyPos="true"/>
+    <busStop id="284131377" lane="284131377_0" startPos="242.43" endPos="252.43"/>
+    <busStop id="284131393#7" lane="284131393#7_0" startPos="14.25" endPos="24.25" friendlyPos="true"/>
+    <busStop id="2917387583" name="Kallahti" lane="981345472_0" startPos="50.05" endPos="65.05" friendlyPos="true"/>
+    <busStop id="304400290" lane="304400290_0" startPos="34.15" endPos="44.15" friendlyPos="true"/>
+    <busStop id="3062591169" name="Vuosaaren kirkko" lane="40163333#5_0" startPos="1.07" endPos="23.26" friendlyPos="true"/>
+    <busStop id="3662015117" name="Satamasaarentie" lane="107679433#1_0" startPos="7.18" endPos="32.18" friendlyPos="true"/>
+    <busStop id="366851558" name="Vuotie" lane="107913512_0" startPos="28.70" endPos="43.70" friendlyPos="true" lines="90A 96N"/>
+    <busStop id="3691097232" name="Koukkusaarentie" lane="276197907_0" startPos="0.17" endPos="15.17" friendlyPos="true"/>
+    <busStop id="3691097233" name="Koukkusaarentie" lane="38360085#3_0" startPos="20.94" endPos="39.93" friendlyPos="true"/>
+    <busStop id="408353533" name="Rastila (M)" lane="34843851#1_0" startPos="4.62" endPos="16.89" friendlyPos="true"/>
+    <busStop id="408353537" name="Rastila (M)" lane="6175910#0_0" startPos="0.70" endPos="27.70" friendlyPos="true"/>
+    <busStop id="411314560" name="Mosaiikkitori" lane="42700982#0_0" startPos="0.00" endPos="11.45" friendlyPos="true"/>
+    <busStop id="411314561" name="Mosaiikkitori" lane="-42700982#0_0" startPos="12.02" endPos="27.02" friendlyPos="true"/>
+    <busStop id="431515128" name="Itäreimarintie" lane="49184937#1_0" startPos="25.58" endPos="40.58" friendlyPos="true"/>
+    <busStop id="431515189" name="Itäreimarintie" lane="49184938#1_0" startPos="23.59" endPos="38.59" friendlyPos="true"/>
+    <busStop id="433344976" name="Haapasaarentie" lane="40322702_0" startPos="33.56" endPos="48.56" friendlyPos="true"/>
+    <busStop id="433709946" name="Satamasaarentie" lane="-276138730_0" startPos="4.76" endPos="29.76" friendlyPos="true"/>
+    <busStop id="433709959" name="Satamasaarentie" lane="110778862_0" startPos="0.00" endPos="15.29" friendlyPos="true"/>
+    <busStop id="433710008" name="Merikorttitie" lane="-38360085#1_0" startPos="13.49" endPos="28.49" friendlyPos="true"/>
+    <busStop id="433710036" name="Merikorttitie" lane="284131368_0" startPos="22.62" endPos="30.45" friendlyPos="true"/>
+    <busStop id="433710072" name="Mustalahdentie" lane="-34844201#1_0" startPos="35.31" endPos="50.31" friendlyPos="true"/>
+    <busStop id="433727701" name="Porslahdentie" lane="48773797#0_0" startPos="33.72" endPos="48.72" friendlyPos="true"/>
+    <busStop id="433727784" name="Porslahdentie" lane="-48773797#0_0" startPos="80.83" endPos="102.83" friendlyPos="true"/>
+    <busStop id="433727792" name="Isonvillasaarentie" lane="196305856#1_0" startPos="24.13" endPos="39.13" friendlyPos="true"/>
+    <busStop id="433899494" name="Haapasaarentie" lane="-38083953_0" startPos="9.62" endPos="20.14" friendlyPos="true"/>
+    <busStop id="433899532" name="Punakiventie" lane="-108961950_0" startPos="0.00" endPos="14.58" friendlyPos="true"/>
+    <busStop id="434565196" name="Venemestarintie" lane="94939080_0" startPos="130.11" endPos="145.11" friendlyPos="true" lines="90N 90A">
+        <access lane="-111762610#2_0" pos="27.19" length="44.46" friendlyPos="1"/>
+        <access lane="111762610#2_0" pos="37.13" length="42.96" friendlyPos="1"/>
+        <access lane="129451940_0" pos="16.38" length="21.59" friendlyPos="1"/>
+        <access lane="37294883_0" pos="8.84" length="10.51" friendlyPos="1"/>
+        <access lane="37299829_0" pos="17.51" length="41.59" friendlyPos="1"/>
+    </busStop>
+    <busStop id="434677214" name="Venemestarintie" lane="94939084_0" startPos="127.68" endPos="142.68" friendlyPos="true" lines="90A 90N">
+        <access lane="-129466364#5_0" pos="0.00" length="40.93" friendlyPos="1"/>
+        <access lane="-238588649#3_0" pos="45.95" length="23.24" friendlyPos="1"/>
+        <access lane="238588649#3_0" pos="0.00" length="24.66" friendlyPos="1"/>
+        <access lane="37299829_0" pos="19.45" length="10.12" friendlyPos="1"/>
+        <access lane="53198173_0" pos="0.00" length="14.61" friendlyPos="1"/>
+    </busStop>
+    <busStop id="443636268" name="Vuosaari (M), laituri 12" lane="110449397_0" startPos="32.36" endPos="47.36" friendlyPos="true"/>
+    <busStop id="444677135" name="Satamakaari" lane="54905488#1_0" startPos="1.34" endPos="16.34" friendlyPos="true" lines="90 90A"/>
+    <busStop id="444677136" name="Käärmeniementie" lane="50280004#2_0" startPos="24.99" endPos="39.99" friendlyPos="true"/>
+    <busStop id="444677137" name="Käärmeniementie" lane="54895334#0_0" startPos="3.73" endPos="18.73" friendlyPos="true" lines="90A 90"/>
+    <busStop id="444677138" name="Voimalaitokset" lane="54115575#4_0" startPos="15.20" endPos="35.20" friendlyPos="true"/>
+    <busStop id="444677140" name="Hansaterminaali" lane="-37253308#0_0" startPos="10.35" endPos="25.35" friendlyPos="true"/>
+    <busStop id="444677141" name="Konttialue" lane="112897646#2_0" startPos="14.06" endPos="29.06" friendlyPos="true"/>
+    <busStop id="444677142" name="Pohjoisloisto" lane="23251924#7_0" startPos="1.03" endPos="16.03" friendlyPos="true"/>
+    <busStop id="444677151" name="Eteläloisto" lane="108202487#2_0" startPos="40.07" endPos="53.07" friendlyPos="true"/>
+    <busStop id="444677152" name="Eteläreimarintie" lane="23251919#1_0" startPos="5.89" endPos="20.89" friendlyPos="true"/>
+    <busStop id="445085492" name="Aurinkolahti" lane="39449175#1_0" startPos="0.00" endPos="10.23" friendlyPos="true" lines="90A 96N"/>
+    <busStop id="445085494" name="Aurinkolahti" lane="39449178_0" startPos="28.06" endPos="43.06" friendlyPos="true"/>
+    <busStop id="445085495" name="Sumukuja" lane="54040587_0" startPos="6.52" endPos="21.52" friendlyPos="true" lines="90"/>
+    <busStop id="445085498" name="Aurinkolahden puistotie" lane="107756096#1_0" startPos="4.75" endPos="19.75" friendlyPos="true" lines="90 96N"/>
+    <busStop id="445085513" name="Iiluodontie" lane="465653485#2_0" startPos="8.53" endPos="23.53" friendlyPos="true"/>
+    <busStop id="445090546" name="Vedenottamontie" lane="65075527#1_0" startPos="0.76" endPos="14.00" friendlyPos="true" lines="96N 90N 560"/>
+    <busStop id="445090564" name="Kallvikinniemi" lane="201252985_0" startPos="12.90" endPos="27.90" friendlyPos="true" lines="96N"/>
+    <busStop id="445104198" name="Vuotie" lane="96614982#1_0" startPos="37.72" endPos="52.72" friendlyPos="true"/>
+    <busStop id="445834176" name="Sumukuja" lane="-107899627_0" startPos="21.82" endPos="36.82" friendlyPos="true"/>
+    <busStop id="445834180" name="Aurinkotuulenkatu" lane="54233568_0" startPos="14.86" endPos="29.86" friendlyPos="true" lines="90 96N"/>
+    <busStop id="445834181" name="Aurinkotuulenkatu" lane="-54233568_0" startPos="2.85" endPos="17.85" friendlyPos="true"/>
+    <busStop id="445834183" name="Gustav Pauligin katu" lane="108255614#1_0" startPos="10.94" endPos="25.94" friendlyPos="true"/>
+    <busStop id="445835211" name="Mustankivenkatu" lane="50165768_0" startPos="0.78" endPos="15.78" friendlyPos="true" lines="90A">
+        <access lane="45875941_0" pos="0.20" length="20.55" friendlyPos="1"/>
+        <access lane="45875945#0_0" pos="0.20" length="19.57" friendlyPos="1"/>
+        <access lane="45875945#1_0" pos="0.00" length="19.38" friendlyPos="1"/>
+        <access lane="95093604_0" pos="0.20" length="21.20" friendlyPos="1"/>
+        <access lane="95093611_0" pos="0.00" length="19.37" friendlyPos="1"/>
+    </busStop>
+    <busStop id="445835212" name="Mustankivenkatu" lane="37253298_0" startPos="47.56" endPos="62.56" friendlyPos="true" lines="90A">
+        <access lane="167885190#0_0" pos="4.78" length="39.78" friendlyPos="1"/>
+        <access lane="167885190#1_0" pos="0.00" length="39.42" friendlyPos="1"/>
+        <access lane="167885202_0" pos="7.36" length="24.56" friendlyPos="1"/>
+        <access lane="37959428_0" pos="0.00" length="40.47" friendlyPos="1"/>
+        <access lane="42246188_0" pos="44.07" length="6.64" friendlyPos="1"/>
+    </busStop>
+    <busStop id="445835213" name="Vuosaari (M), laituri 15" lane="37959428_0" startPos="13.12" endPos="20.62" friendlyPos="true"/>
+    <busStop id="445839069" name="Vuosaari (M), laituri 14" lane="37827862#1_0" startPos="0.00" endPos="8.19" friendlyPos="true"/>
+    <busStop id="445839076" name="Vuosaari (M), laituri 13" lane="110449397_0" startPos="32.36" endPos="47.36" friendlyPos="true"/>
+    <busStop id="445839083" name="Vuosaari (M), laituri 11" lane="45961436_0" startPos="29.85" endPos="44.85" friendlyPos="true"/>
+    <busStop id="446025783" name="Vuosaari (M), laituri 16" lane="23278364#1_0" startPos="40.00" endPos="52.49" friendlyPos="true"/>
+    <busStop id="447911554" name="Rahtarinaukio" lane="54897119#3_0" startPos="0.00" endPos="9.61" friendlyPos="true"/>
+    <busStop id="44810962#1" lane="44810962#1_0" startPos="20.38" endPos="30.38"/>
+    <busStop id="454172819" name="Kaivonkatsojanpuisto" lane="130193136#3_0" startPos="19.22" endPos="34.22" friendlyPos="true" lines="90N"/>
+    <busStop id="454172828" name="Harbonkatu" lane="238588789#16_0" startPos="54.26" endPos="69.26" friendlyPos="true"/>
+    <busStop id="454177606" name="Ramsinniementie" lane="419276338#0_0" startPos="0.44" endPos="25.44" friendlyPos="true" lines="96N"/>
+    <busStop id="454178536" name="Fokkatori" lane="128139011#0_0" startPos="2.75" endPos="15.98" friendlyPos="true" lines="96N"/>
+    <busStop id="454182023" name="Meri-Rastilan tori" lane="6179673_0" startPos="10.10" endPos="25.10" friendlyPos="true"/>
+    <busStop id="454182026" name="Rastila (M)" lane="6175908#3_0" startPos="7.93" endPos="23.93" friendlyPos="true"/>
+    <busStop id="454182030" name="Meri-Rastilan tori" lane="-128139009_0" startPos="0.00" endPos="11.57" friendlyPos="true"/>
+    <busStop id="457400409" name="Muinaislinnanpolku" lane="238663193#1_0" startPos="0.00" endPos="9.44" friendlyPos="true"/>
+    <busStop id="457400410" name="Muinaislinnanpolku" lane="38892069#3_0" startPos="115.41" endPos="130.41" friendlyPos="true"/>
+    <busStop id="457400412" name="Uiskotie" lane="234763150#1_0" startPos="0.00" endPos="6.76" friendlyPos="true"/>
+    <busStop id="457400414" name="Uiskotie" lane="300114206#3_0" startPos="10.96" endPos="25.96" friendlyPos="true"/>
+    <busStop id="45876488" name="Kaauppakeskus Columbus" lane="45876488_0" startPos="22.42" endPos="32.42"/>
+    <busStop id="459978591" name="Pilssikuja" lane="-109795004_0" startPos="10.01" endPos="27.01" friendlyPos="true"/>
+    <busStop id="459978595" name="Rastilantie 11" lane="-40163329#6_0" startPos="2.71" endPos="27.71" friendlyPos="true"/>
+    <busStop id="459978596" name="Rastilantie 11" lane="40163329#6_0" startPos="7.62" endPos="32.62" friendlyPos="true"/>
+    <busStop id="459978598" name="Pilssikuja" lane="111750603#1_0" startPos="0.00" endPos="22.25" friendlyPos="true"/>
+    <busStop id="459985058" name="Punakiventie" lane="-110183499#2_0" startPos="9.58" endPos="34.58" friendlyPos="true"/>
+    <busStop id="459985079" lane="284131390#2_0" startPos="10.69" endPos="20.47" friendlyPos="true"/>
+    <busStop id="460343924" name="Koukkusaarenpolku" lane="-110183186#0_0" startPos="0.30" endPos="20.33" friendlyPos="true"/>
+    <busStop id="461914942" name="Pyötsaarenkuja" lane="300114185#0_0" startPos="175.15" endPos="190.15" friendlyPos="true"/>
+    <busStop id="461914945" name="Pyötsaarenkuja" lane="300114194#1_0" startPos="15.45" endPos="30.45" friendlyPos="true"/>
+    <busStop id="462094431" name="Punakiventie" lane="5012880#1_0" startPos="3.45" endPos="18.45" friendlyPos="true" lines="96N 96"/>
+    <busStop id="466274915" name="Isonvillasaarentie" lane="-795523056#0_0" startPos="0.13" endPos="25.13" friendlyPos="true"/>
+    <busStop id="466346323" name="Kallvikintie" lane="231930270#2_0" startPos="8.52" endPos="33.04" friendlyPos="true"/>
+    <busStop id="466346326" name="Koukkusaarentie" lane="-164380257_0" startPos="11.69" endPos="35.41" friendlyPos="true"/>
+    <busStop id="469360319" name="Merikorttikuja" lane="109794995#1_0" startPos="3.69" endPos="28.69" friendlyPos="true"/>
+    <busStop id="469360321" name="Merikorttitie" lane="109794988#6_0" startPos="10.30" endPos="20.30" friendlyPos="true"/>
+    <busStop id="469429081" name="Rastilantie 17" lane="-40163329#1_0" startPos="13.13" endPos="31.37" friendlyPos="true"/>
+    <busStop id="469429084" name="Rastilantie 17" lane="40163329#1_0" startPos="18.44" endPos="43.44" friendlyPos="true"/>
+    <busStop id="472359863" name="Aurinkolahti" lane="-53198549#0_0" startPos="6.51" endPos="21.51" friendlyPos="true"/>
+    <busStop id="475189523" name="Rajapaadenraitti" lane="40163330_0" startPos="4.74" endPos="29.74" friendlyPos="true"/>
+    <busStop id="475189524" name="Satamasaarentie" lane="-107679433#1_0" startPos="26.05" endPos="51.05" friendlyPos="true"/>
+    <busStop id="475189527" lane="110183499#2_0" startPos="13.37" endPos="38.37" friendlyPos="true"/>
+    <busStop id="475189529" name="Kallvikintie" lane="-38045371_0" startPos="16.97" endPos="32.65" friendlyPos="true"/>
+    <busStop id="475275089" name="Pohjoinen ostoskeskus" lane="110586586#1_0" startPos="0.40" endPos="20.30" friendlyPos="true"/>
+    <busStop id="4776073#8" name="Sofia" lane="4776073#8_0" startPos="62.33" endPos="72.33" friendlyPos="true"/>
+    <busStop id="479265167" name="Merikortintie" lane="109794986#6_0" startPos="6.73" endPos="24.34" friendlyPos="true"/>
+    <busStop id="479265171" name="Lokipolku" lane="123629297#20_0" startPos="7.29" endPos="32.29" friendlyPos="true"/>
+    <busStop id="479265181" name="Lokipolku" lane="-123629297#14_0" startPos="0.33" endPos="25.33" friendlyPos="true"/>
+    <busStop id="481258434" name="Kallvikintie" lane="40166556#7_0" startPos="8.14" endPos="24.68" friendlyPos="true"/>
+    <busStop id="483594528" name="Vuosaarentie" lane="-4291166#3_0" startPos="7.83" endPos="32.83" friendlyPos="true"/>
+    <busStop id="48773796#0" lane="48773796#0_0" startPos="123.20" endPos="133.20"/>
+    <busStop id="48922631#0" lane="48922631#0_0" startPos="40.79" endPos="50.79"/>
+    <busStop id="493523110" name="Tyynylaavankuja" lane="-40821191#0_0" startPos="6.20" endPos="21.20" friendlyPos="true"/>
+    <busStop id="496384598" name="Telakan portti" lane="-112897646#6_0" startPos="12.22" endPos="24.22" friendlyPos="true"/>
+    <busStop id="511166918" lane="41644876#3_0" startPos="38.02" endPos="57.08" friendlyPos="true"/>
+    <busStop id="513789901" lane="-130459345_0" startPos="0.50" endPos="15.50" friendlyPos="true"/>
+    <busStop id="5178040578" name="Vuosaari" lane="34843849#2_0" startPos="0.00" endPos="130.13" friendlyPos="true" lines="M1">
+        <access lane="45875935_0" pos="0.00" length="24.63" friendlyPos="1"/>
+        <access lane="45875941_0" pos="0.20" length="25.65" friendlyPos="1"/>
+        <access lane="45875945#0_0" pos="0.00" length="22.37" friendlyPos="1"/>
+        <access lane="45875945#1_0" pos="0.00" length="27.83" friendlyPos="1"/>
+        <access lane="95093611_0" pos="0.00" length="27.51" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5178040579" name="Vuosaari" lane="35739026_0" startPos="33.33" endPos="233.33" friendlyPos="true" lines="M1">
+        <access lane="-108155312_0" pos="41.07" length="27.86" friendlyPos="1"/>
+        <access lane="-42228695#1_0" pos="91.72" length="13.52" friendlyPos="1"/>
+        <access lane="108155312_0" pos="28.79" length="23.06" friendlyPos="1"/>
+        <access lane="41872659#0_0" pos="0.00" length="32.76" friendlyPos="1"/>
+        <access lane="42228695#1_0" pos="42.69" length="12.02" friendlyPos="1"/>
+    </busStop>
+    <busStop id="5235028123" name="Merikortintie" lane="-109794986#4_0" startPos="15.26" endPos="31.75" friendlyPos="true"/>
+    <busStop id="5235028124" name="Kurkimoisio" lane="-109792947_0" startPos="0.37" endPos="25.37" friendlyPos="true"/>
+    <busStop id="54905482" name="Majakanvartijankatu" lane="54905482_0" startPos="84.62" endPos="94.62"/>
+    <busStop id="55940295#6" name="Vuosaaren Satama" lane="55940295#6_0" startPos="72.82" endPos="82.82"/>
+    <busStop id="565413762" name="Ruusuniemi" lane="37248851#2_0" startPos="37.64" endPos="52.64" friendlyPos="true"/>
+    <busStop id="565480640" name="Melatie" lane="-109792945_0" startPos="22.35" endPos="37.35" friendlyPos="true"/>
+    <busStop id="568067230" name="Kurkimoisio" lane="-371528119_0" startPos="15.58" endPos="40.58" friendlyPos="true"/>
+    <busStop id="5707231929" name="Hansaterminaali" lane="37253308#0_0" startPos="5.96" endPos="20.96" friendlyPos="true"/>
+    <busStop id="602191214" name="Lokitie" lane="4864833#1_0" startPos="0.00" endPos="20.48" friendlyPos="true"/>
+    <busStop id="6102408593" name="Mustalahdentie" lane="-110586583#0_0" startPos="4.18" endPos="28.75" friendlyPos="true"/>
+    <busStop id="6102408594" name="Mustalahdentie" lane="110586583#0_0" startPos="34.52" endPos="54.75" friendlyPos="true"/>
+    <busStop id="6241408776" name="Purjetie" lane="196295108_0" startPos="0.00" endPos="16.10" friendlyPos="true"/>
+    <busStop id="6241408780" name="Nuottaniementie" lane="36881206#8_0" startPos="22.84" endPos="31.49" friendlyPos="true"/>
+    <busStop id="6329147756" name="Iiluodontie" lane="107756079_0" startPos="4.74" endPos="19.74" friendlyPos="true" lines="560"/>
+    <busStop id="6329147757" name="Vuosaari (M), laituri 14" lane="23278350_0" startPos="39.27" endPos="54.27" friendlyPos="true" lines="560"/>
+    <busStop id="6329147760" name="Merikorttitie" lane="40166558#1_0" startPos="15.07" endPos="30.07" friendlyPos="true" lines="560"/>
+    <busStop id="6329147761" name="Mustalahdentie" lane="95889676#0_0" startPos="6.37" endPos="21.37" friendlyPos="true" lines="560"/>
+    <busStop id="6329149201" name="Mustalahdentie" lane="892377261_0" startPos="56.59" endPos="71.59" friendlyPos="true" lines="560"/>
+    <busStop id="6329149203" name="Lokitie" lane="40164324#1_0" startPos="42.01" endPos="57.01" friendlyPos="true" lines="560"/>
+    <busStop id="6329149204" name="Iiluodontie" lane="107756084_0" startPos="0.25" endPos="15.25" friendlyPos="true" lines="560"/>
+    <busStop id="6329149206" name="Kallvikinniemi" lane="201252985_0" startPos="13.81" endPos="28.81" friendlyPos="true" lines="560"/>
+    <busStop id="6329149207" name="Halkaisijantie" lane="201252986_0" startPos="41.09" endPos="56.09" friendlyPos="true" lines="560"/>
+    <busStop id="6329149208" name="Harbonkatu" lane="128672146#0_0" startPos="14.57" endPos="29.57" friendlyPos="true" lines="560"/>
+    <busStop id="6329149209" name="Ramsinniementie" lane="419276338#0_0" startPos="0.57" endPos="25.57" friendlyPos="true" lines="560"/>
+    <busStop id="6329149210" name="Fokkatori" lane="128139011#0_0" startPos="3.15" endPos="15.98" friendlyPos="true" lines="560"/>
+    <busStop id="6329149212" name="Rastila (M)" lane="38507311#0_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="560"/>
+    <busStop id="638632718" name="Voimalaitokset" lane="-54115575#2_0" startPos="141.93" endPos="156.93" friendlyPos="true"/>
+    <busStop id="6424785329" name="Isonvillasaarentie" lane="4291188#3_0" startPos="8.41" endPos="23.41" friendlyPos="true"/>
+    <busStop id="6424785330" name="Isonvillasaarentie" lane="-110586573#0_0" startPos="43.60" endPos="58.60" friendlyPos="true"/>
+    <busStop id="6451765704" name="Mustankivenkatu" lane="37827860#1_0" startPos="20.50" endPos="35.50" friendlyPos="true"/>
+    <busStop id="677546295" name="Leikosaarentie" lane="130459341#1_0" startPos="10.36" endPos="25.36" friendlyPos="true"/>
+    <busStop id="683862484" name="Kalkkihiekankuja" lane="107896654_0" startPos="0.00" endPos="11.94" friendlyPos="true"/>
+    <busStop id="6990071590" name="Vuosaari (M)" lane="45961436_0" startPos="40.80" endPos="55.80" friendlyPos="true"/>
+    <busStop id="7244123652" name="Kallvikintie" lane="-111750602#1_0" startPos="19.28" endPos="44.15" friendlyPos="true"/>
+    <busStop id="7244123653" name="Kallvikintie" lane="111750602#1_0" startPos="20.00" endPos="93.32" friendlyPos="true"/>
+    <busStop id="7391919239" name="Linnanherrantie" lane="131238562#1_0" startPos="24.91" endPos="39.91" friendlyPos="true" lines="93K 93 97 97V 97N"/>
+    <busStop id="7391919240" name="Linnanherrantie" lane="131238560#2_0" startPos="47.46" endPos="62.46" friendlyPos="true" lines="97V 97 97N 93 93K"/>
+    <busStop id="7395880288" name="Lokkisaarentie" lane="108965746#0_0" startPos="17.32" endPos="34.96" friendlyPos="true" lines="96N 96"/>
+    <busStop id="743434090" name="Varjakanvalkama" lane="238663085#2_0" startPos="45.48" endPos="70.48" friendlyPos="true"/>
+    <busStop id="74602089#1" lane="74602089#1_0" startPos="25.73" endPos="35.73"/>
+    <busStop id="751167315#1" name="Sataman Varasto" lane="751167315#1_0" startPos="93.66" endPos="103.66"/>
+    <busStop id="7559769119" name="Merikorttitie" lane="-109794988#6_0" startPos="5.26" endPos="25.14" friendlyPos="true"/>
+    <busStop id="8434272058" name="Rysäkuja" lane="-110436746#4_0" startPos="8.91" endPos="23.91" friendlyPos="true"/>
+    <busStop id="8434272059" name="Rysäkuja" lane="110436746#4_0" startPos="3.68" endPos="17.22" friendlyPos="true"/>
+    <busStop id="9107504648" name="Leikosaarenraitti" lane="-107896656_0" startPos="30.50" endPos="40.73" friendlyPos="true"/>
+    <busStop id="923111698" name="Rahtarinaukio" lane="-54897119#1_0" startPos="12.38" endPos="27.38" friendlyPos="true"/>
+    <busStop id="937219893" name="Iiluodontie" lane="107756079_0" startPos="4.15" endPos="19.15" friendlyPos="true" lines="90N 96N"/>
+    <busStop id="96214114" lane="96214114_0" startPos="183.03" endPos="193.03"/>
+    <busStop id="969256181" name="Ivan Falinin kuja" lane="284131340_0" startPos="0.00" endPos="10.43" friendlyPos="true" lines="96N 90"/>
+    <busStop id="969256186" name="Leikosaarentie" lane="-107756075#0_0" startPos="53.48" endPos="68.48" friendlyPos="true"/>
+    <busStop id="969256188" name="Leikosaarentie" lane="107913816#2_0" startPos="54.21" endPos="69.21" friendlyPos="true">
+        <access lane="-104802039#1_0" pos="36.60" length="23.95" friendlyPos="1"/>
+        <access lane="-107756075#0_0" pos="58.29" length="17.75" friendlyPos="1"/>
+        <access lane="-238565160#0_0" pos="9.18" length="31.46" friendlyPos="1"/>
+        <access lane="104802039#1_0" pos="0.00" length="28.65" friendlyPos="1"/>
+        <access lane="107913816#2_0" pos="9.35" length="12.95" friendlyPos="1"/>
+    </busStop>
+    <busStop id="busStop_-147597976_0_202" lane="-147597976_0" startPos="63.17" endPos="73.17"/>
+    <busStop id="busStop_-163462811_0_194" lane="-163462811_0" startPos="26.23" endPos="36.23"/>
+    <busStop id="busStop_-291379406#5_0_186" lane="-291379406#5_0" startPos="23.79" endPos="33.79" friendlyPos="true"/>
+    <busStop id="busStop_-37190964#1_0_189" lane="-37190964#1_0" startPos="49.86" endPos="59.86" friendlyPos="true"/>
+    <busStop id="busStop_-37829760#1_0_199" lane="-37829760#1_0" startPos="102.08" endPos="112.08" friendlyPos="true"/>
+    <busStop id="busStop_-37829760#4_0_197" lane="-37829760#4_0" startPos="112.96" endPos="122.96" friendlyPos="true"/>
+    <busStop id="busStop_-39178139#3_0_193" lane="-39178139#3_0" startPos="14.77" endPos="24.77" friendlyPos="true"/>
+    <busStop id="busStop_-4680425#1_0_195" lane="-4680425#1_0" startPos="38.36" endPos="48.36" friendlyPos="true"/>
+    <busStop id="busStop_-48770936_0_201" lane="-48770936_0" startPos="13.68" endPos="23.68"/>
+    <busStop id="busStop_-54682948#5_0_188" lane="-54682948#5_0" startPos="17.35" endPos="27.35" friendlyPos="true"/>
+    <busStop id="busStop_163406225#4_0_190" lane="163406225#4_0" startPos="4.78" endPos="14.78"/>
+    <busStop id="busStop_37777356#3_0_191" lane="37777356#3_0" startPos="9.61" endPos="19.61"/>
+    <busStop id="busStop_37829760#1_0_200" lane="37829760#1_0" startPos="86.26" endPos="96.26" friendlyPos="true"/>
+    <busStop id="busStop_37829760#4_0_198" lane="37829760#4_0" startPos="119.14" endPos="129.14" friendlyPos="true"/>
+    <busStop id="busStop_39178140#1_0_192" lane="39178140#1_0" startPos="240.54" endPos="250.54" friendlyPos="true"/>
+    <busStop id="busStop_54682948#11_0_184" lane="54682948#11_0" startPos="26.03" endPos="36.03" friendlyPos="true"/>
+    <busStop id="busStop_55027745#1_0_185" lane="55027745#1_0" startPos="173.13" endPos="183.13"/>
+    <busStop id="busStop_807336536#3_0_196" lane="807336536#3_0" startPos="104.75" endPos="114.75" friendlyPos="true"/>
+</additional>
